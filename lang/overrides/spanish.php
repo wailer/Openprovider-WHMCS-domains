@@ -1,34 +1,34 @@
 <?php
 
-$_LANG['dnssectabname'] = 'DNSSEC Management';
+$_LANG['dnssectabname'] = 'Gestión DNSSEC';
 
-$_LANG['dnssec']['pagename']  = 'DNSSEC Records';
-$_LANG['dnssec']['tablename'] = 'Manage DNSSEC Records';
+$_LANG['dnssec']['pagename']  = 'Registros DNSSEC';
+$_LANG['dnssec']['tablename'] = 'Gestionar registros DNSSEC';
 
-$_LANG['dnssec']['activatednssecbutton']   = 'Activate DNSSEC';
-$_LANG['dnssec']['deactivatednssecbutton'] = 'Deactivate DNSSEC';
+$_LANG['dnssec']['activatednssecbutton']   = 'Activar DNSSEC';
+$_LANG['dnssec']['deactivatednssecbutton'] = 'Desactivar DNSSEC';
 
 
-$_LANG['dnssec']['alertdnssecnotactivated'] = 'DNSSEC is not active on this domain.';
-$_LANG['dnssec']['alertdnssecactivated']     = 'DNSSEC is active for this domain. If you deactivate DNSSEC, all existing keys will be deleted from this domain.';
+$_LANG['dnssec']['alertdnssecnotactivated'] = 'DNSSEC no está habilitado para este dominio.';
+$_LANG['dnssec']['alertdnssecactivated']     = 'DNSSEC está habilitado para este domoinio. Si desactiva DNSSEC, todas las claves existentes se eliminarán.';
 
 
 $_LANG['dnssec']['tableheaderflags']       = 'Flags';
-$_LANG['dnssec']['tableheaderalgorithms']  = 'Algorithm';
-$_LANG['dnssec']['tableheaderpublickeys'] = 'Public key';
-$_LANG['dnssec']['tableheaderactions']     = 'Actions';
+$_LANG['dnssec']['tableheaderalgorithms']  = 'Algoritmo';
+$_LANG['dnssec']['tableheaderpublickeys'] = 'Clave Pública';
+$_LANG['dnssec']['tableheaderactions']     = 'Acciones';
 
 
-$_LANG['dnssec']['tablebuttonactiondelete'] = 'Delete';
-$_LANG['dnssec']['tablebuttonactionsave']   = 'Save';
+$_LANG['dnssec']['tablebuttonactiondelete'] = 'Eliminar';
+$_LANG['dnssec']['tablebuttonactionsave']   = 'Guardar';
 
-$_LANG['dnssec']['buttonadddnssecrecord'] = 'Add A New DNSSEC Record';
+$_LANG['dnssec']['buttonadddnssecrecord'] = 'Añadir un nuevo registro DNSSEC';
 
-$_LANG['esIdentificationType'] = 'Identification Type';
-$_LANG['esIdentificationNumber'] = "Company or Individual ID";
-$_LANG['esIdentificationPassport'] = "Passport/Individual ID";
-$_LANG['esIdentificationCompany'] = "Company Registration ID";
-$_LANG['esIdentificationCORI'] = "Company or Individual ID";
+$_LANG['esIdentificationType'] = 'Tipo de Identificación';
+$_LANG['esIdentificationNumber'] = "Compañía o ID personal";
+$_LANG['esIdentificationPassport'] = "Pasaporte/ID personal";
+$_LANG['esIdentificationCompany'] = "ID de registro de Empresa";
+$_LANG['esIdentificationCORI'] = "Compañía o ID individual";
 
 $_LANG['ptIdentificationType'] = 'Tipo de Contribuinte (VAT/TAX ID)';
 $_LANG['ptIdentificationNumber'] = 'Tipo de Contribuinte (VAT/TAX ID)';
